@@ -1,3 +1,13 @@
+// Author: Kenny Khek
+/*
+To use, include this in html
+
+<select class="dayfield"></select>
+<select class="monthfield"></select> 
+<select class="yearfield"></select> 
+
+*/  
+
 var monthtext = ['January,'February','March','April','May','June','July','August','September','October','November','December'];
 
 fucntion _init_date-dropdown() {
