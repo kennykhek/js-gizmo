@@ -1,23 +1,23 @@
 // Author: Kenny Khek
 /*
-To use, include this in html
+Sample Markup
+<select class="dd-dayfield"></select>
+<select class="dd-monthfield"></select> 
+<select class="dd-yearfield"></select> 
 
-<select class="dayfield"></select>
-<select class="monthfield"></select> 
-<select class="yearfield"></select> 
-
+In order to initialize run the function below:
+_init_datedropdown();
 */  
 
-var monthtext = ['January,'February','March','April','May','June','July','August','September','October','November','December'];
-
 function _init_datedropdown() {
+    var monthtext = ['January,'February','March','April','May','June','July','August','September','October','November','December'];
     var today = new Date();
     var todayDate = today.getDate();
     var todayMonth = today.getMonth();
     var todayYear = today.getFullYear();
-    var $day = $('.dayfield');
-    var $month = $('.monthfield');
-    var $year = $('.yearfield');
+    var $day = $('.dd-dayfield');
+    var $month = $('.dd-monthfield');
+    var $year = $('.dd-yearfield');
   
     $day.each(function() {
         for (var i=0; i<31; i++) {

@@ -1,15 +1,12 @@
 // Author: Kenny Khek
 /*
 To use, include this in html
-
+Sample Markup
 <div class="acc-trigger">title</div>
-<div class="acc_container">content</div>
-<div class="acc-trigger">title2</div>
-<div class="acc_container">content2</div>
-.
-.
-.
+<div class="acc-container">content</div>
 
+In order to initialize run the function below:
+init_accordin();
 */
 
 function init_accordin() {
